@@ -1,38 +1,79 @@
 *{
     margin: 0;
     padding: 0;
-    
-}
-a:link{
-    color: white;
+    list-style-type: none;
 }
 .container{
-    width: 960px;
+    width: 1100px;
     margin: 0 auto;
 }
 .header-top{
-    background-color: #444444;
-    height: 25px;
+    height: 40px;
+    padding: 7px 0px; 
+    background-color: #030335;
     color: white;
-    padding-top: 10px;
 }
-.header-main{
-    background-color: #333333;
-    height: 100px;
-    padding-top: 40px;
-}
-.header-main img{
+.header-top-news{
     float: left;
+    width: 400px;
+}
+.last-news{
+    background-color:#f61128;
+    color: white;
+    font-weight: 400px;
+    width: 50px;
+    padding: 0 5px;
+    float: left;
+    margin-right: 10PX;
+}
+.social-nav{
+    float: right;
 }
 
-.nav-links{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.social-nav .fab{
+    margin-right: 10px;
 }
-.nav-links li{
-    float: right;
+.header-main{
+    height: 145px;
+    background-image: url("../../../shared/header-banner.jpg");
+}
+.header-nav{
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: 700;
+    
+}
+.header-nav li {
+    float: left;
+    padding: 29px;
+    font-size: 16px;
+    margin-top: 37px;
+  }
+  .header-nav li:nth-child(1){
+    padding-left: 0px;
+  }
+  .header-nav li:nth-child(9){
+    padding-right: 0px;
+  }
+  .header-nav a {
+    display: block;
     color: white;
-    margin-left: 30px;
+    text-align: center;
+    text-decoration: none; 
 }
+.header-nav a:hover {
+    border-bottom: 2px solid #08a5ec;
+}
+
+.header-logo{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.header-logo img{
+    max-width: 100%;
+    height: auto;
+}
+.header-logo a:hover {
+    border: none;
+}
+

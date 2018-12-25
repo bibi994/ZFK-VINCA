@@ -1,12 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-// import './css/Header.css'
+import './header.css';
 
 const Header = () => {
-    return (
-        
+    return(
+        <header>
+            <div class="header-top">
+                <div className="container">
+                    <div className="header-top-news">
+                        <div class="last-news "> VESTI</div>
+                        <p>Ostvarena je prva pobeda!</p>
+                    </div>
 
+                    <div class="social-nav">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header-main">
+                <ul class="header-nav container">
+                    <li><a href="#!">VESTI</a></li>
+                    <li><a href="#!">O KLUBU</a></li>
+                    <li><a href="#!">TIM</a></li>
+                    <li><a href="#!">STRUČNI ŠTAB</a></li>
+                    <li class="header-logo"><a href=""><img src={require('../../../shared/logo.png')} alt=""/></a></li>
+                    <li><a href="#!">VESTI</a></li>
+                    <li><a href="#!">REZULTATI</a></li>
+                    <li><a href="#!">MEDIA</a></li>
+                    <li><a href="#!">KONTAKT</a></li>
+                </ul>
+            </div>
+        </header>
+        
     )
 }
 export default Header;
