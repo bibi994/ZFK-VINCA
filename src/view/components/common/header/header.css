@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a:link{
+    color: white;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.header-top{
+    background-color: #444444;
+    height: 25px;
+    color: white;
+    padding-top: 10px;
+}
+.header-main{
+    background-color: #333333;
+    height: 100px;
+    padding-top: 40px;
+}
+.header-main img{
+    float: left;
+}
+
+.nav-links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-links li{
+    float: right;
+    color: white;
+    margin-left: 30px;
+}
