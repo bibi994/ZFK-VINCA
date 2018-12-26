@@ -5,6 +5,7 @@ import App from './view/App';
 import * as serviceWorker from './serviceWorker';
 import 'jquery/dist/jquery.min.js';
 import 'slick-carousel/slick/slick.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { FontAwesomeIcon } from '@fortawesome/fontawesome-free/css/all.css'
 

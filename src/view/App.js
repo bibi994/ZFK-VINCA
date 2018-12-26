@@ -4,13 +4,16 @@ import './App.css';
 
 
 import Header from './components/common/header/Header'
+import Footer from './components/common/footer/Footer'
 
 class App extends Component {
   render() {
     return (
-
+      <>
       <Header />
-      
+      <main><p>asdas</p></main>
+      <Footer />
+      </>
     )
   }
 }
