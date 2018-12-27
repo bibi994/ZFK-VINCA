@@ -13,9 +13,10 @@ const Header = () => {
                     </div>
 
                     <div class="social-nav">
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube-square"></i>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube-square"></i></a>
+                        
                     </div>
                 </div>
 
