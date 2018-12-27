@@ -5672,6 +5672,11 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jssor-slider@^27.5.0:
+  version "27.5.0"
+  resolved "https://registry.yarnpkg.com/jssor-slider/-/jssor-slider-27.5.0.tgz#308cd04952986425abf827450017ab4ac63c25dc"
+  integrity sha512-cra3oYj0ypbmD5ZfPcCUMUJpZeTYNgVcM6yiybr9Cpr3ujMDSk2usIFn9JVRaHhC7YwnExh2M4KR1m4vLtodKw==
+
 jsx-ast-utils@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.0.1.tgz#e801b1b39985e20fffc87b40e3748080e2dcac7f"
