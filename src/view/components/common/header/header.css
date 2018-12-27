@@ -4,6 +4,11 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 .container{
     width: 1100px;
     margin: 0 auto;
@@ -36,7 +41,7 @@
 }
 .header-main{
     height: 145px;
-    background-image: url("../../../shared/header-banner.jpg");
+    /*background-image: url("../../../shared/header-banner.jpg");*/
 }
 .header-nav{
     list-style-type: none;
