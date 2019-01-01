@@ -70,7 +70,7 @@ const Slider = () => {
         
         <div data-u="slides" className="slides">
             <div>
-                <img data-u="image" src="https://splash.scdn4.secure.raxcdn.com/football/wp-content/uploads/sites/2/2017/01/new_banner.jpg" />
+                <img data-u="image" src="https://i.imgur.com/36FT3qh.jpg" />
              
             </div>
             <div>

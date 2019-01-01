@@ -1,5 +1,6 @@
 .col-8{
     padding: 0;
+    padding-right: 15px;
 }
 .home-first-article{
     width: 713px;
@@ -18,7 +19,7 @@
 }
 .home-first-article img{
     border-radius: 8px;
-    width: 713px;
+    width: 698px;
     height: 100%; 
 }
 .home-first-article .date{
@@ -43,7 +44,7 @@
     color: white;
 }
 .section-header{
-    margin: 60px 0 30px 0;
+    margin-bottom: 30px;
     height: 40px;
     background-color: #030335;
     border-left: 5px solid #08a5ec;

@@ -4,6 +4,8 @@ import './home.css';
 import First_Article from './First_Article/First_Article';
 import Second_Article from './Second_Article/Second_Article';
 import Social from './Social/Social';
+import Table from './Table/Table';
+import Video from './Video/Video';
 
 const Home = () => {
     return(
@@ -23,7 +25,11 @@ const Home = () => {
 
                 <div class="col-4 ">
                     <Social />
-                    <img src={require("../../shared/adv-banner.jpg")} alt="" />
+                    <Table />
+                    <div className="home-banner">
+                        <img src={require("../../shared/banner.jpg")} alt="" />
+                    </div>
+                    <Video />
                 </div>
                 
             </div>  
