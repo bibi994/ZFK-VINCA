@@ -1,0 +1,30 @@
+.social{
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 1px 0px #e6e6e6;
+
+}
+.social-header{
+    border-bottom: 1px solid gray;
+    height: 40px;
+    font-weight: bold;
+    background-color: #030335;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+.social-header .fas{
+    padding: 12px;
+    float: left;
+}
+.social-header p{
+    padding: 3px;
+    font-size: 20px;
+}
+.social .icons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
