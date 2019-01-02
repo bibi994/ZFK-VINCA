@@ -108,15 +108,15 @@
     right:25px;
 }
 .slider-box{
-    width: 250px;
+    width: 550px;
     height: 300px;
     position: absolute;
-    right: 26%;
-    top: 35%;
+    right: 28%;
+    top: 65%;
 }
 .box-span-first{
     background-color: rgba(12, 12, 53, 0.575);
-    color:orange;
+    color: #08a5ec;
     font-size: 25px;
     font-weight: 500;
     display: block;

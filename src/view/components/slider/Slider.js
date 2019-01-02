@@ -11,12 +11,12 @@ const Slider = () => {
         <div data-u="slides" className="slides">
             <div>
                 <div className="slider-box"> 
-                    <span className="box-span-first">LATEST MATCH</span>
-                    <span className="box-span-second">WHITE NOT SUNDAY</span>
-                    <p className="box-p">hey estabilush word championship and promote competitive spirit and friendly relations among members.</p>
-                    <button className="box-button">WATCH VIDEO</button>
+                    <span className="box-span-first">SRUŠI PREDRASUDE, PREVAZIĐI GRANICE!</span>
+                    <span className="box-span-second">ŽENSKI FUDBALSKI KLUB VINČA</span>
+                    {/* <p className="box-p">hey estabilush word championship and promote competitive spirit and friendly relations among members.</p>
+                    <button className="box-button">WATCH VIDEO</button> */}
                 </div>
-                <img data-u="image" src="https://splash.scdn4.secure.raxcdn.com/football/wp-content/uploads/sites/2/2017/01/new_banner.jpg" />
+                <img data-u="image" src="https://i.imgur.com/5J11ATz.jpg" />
              
             </div>
             <div>
