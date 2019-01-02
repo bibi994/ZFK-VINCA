@@ -106,3 +106,47 @@
     top:0px;
     right:25px;
 }
+.slider-box{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    right: 26%;
+    top: 35%;
+}
+.box-span-first{
+    background-color: rgba(12, 12, 53, 0.575);
+    color:orange;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+    float: left; 
+    margin-bottom:0px;
+    padding: 0 2%;
+   
+}
+.box-span-second{
+    margin-top:0px;
+    background-color: rgba(12, 12, 53, 0.575);
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+    float: left;
+    clear: both;
+    padding: 0 2%;
+    margin-bottom: 10px;
+}
+.box-p{
+    color: white;
+    clear: both;
+}
+.box-button{
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    width: 45%;
+    padding: 3%;
+    border: 0;
+    cursor: pointer;
+}
