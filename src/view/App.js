@@ -18,6 +18,7 @@ import Contact from './components/contact/Contact';
 
 class App extends Component {
   render() {
+      console.log(this.props)
     return (
       <>
       <Slider/>

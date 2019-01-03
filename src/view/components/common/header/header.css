@@ -4,6 +4,9 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+.header-bg{
+    background-image: url("../../../shared/header-banner.jpg");
+}
 header{
     position: absolute;
     top: 0;
@@ -41,7 +44,7 @@ header{
 }
 .header-main{
     height: 145px;
-    /* background-image: url("../../../shared/header-banner.jpg"); */
+    background-image: url("../../../shared/header-banner.jpg");
 }
 .header-nav{
     list-style-type: none;
