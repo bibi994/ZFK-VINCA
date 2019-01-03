@@ -6,3 +6,8 @@
 .home-banner img{
     width: 100%;
 }
+.clearFix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
