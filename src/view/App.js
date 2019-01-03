@@ -4,7 +4,6 @@ import {Switch, Route} from 'react-router-dom';
 import './App.css';
 
 import Header from './components/common/header/Header';
-import Slider from './components/slider/Slider';
 import Home from './components/home/Home';
 import Footer from './components/common/footer/Footer'
 
@@ -18,9 +17,9 @@ import Contact from './components/contact/Contact';
 
 class App extends Component {
   render() {
+      console.log(this.props)
     return (
       <>
-      <Slider/>
       <Header />
             <Switch>
                 <Route path="/kontakt" component={Contact} />

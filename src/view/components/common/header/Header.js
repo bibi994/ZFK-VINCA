@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { createBrowserHistory } from 'history'
 
 import './header.css';
 
-const Header = () => {
-    return(
-        <header>
+class Header extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+        }
+    }
+    
+    render() {
+        
+        let box = ["header-main"];
+        if(window.location.href == "http://localhost:3000/") {
+            box.push("header-bg");
+          }
+        return (
+            <header>
             <div class="header-top">
                 <div className="container">
                     <div className="header-top-news">
@@ -22,8 +36,7 @@ const Header = () => {
                 </div>
 
             </div>
-
-            <div class="header-main">
+            <div className={box.join('')}>
                 <ul class="header-nav container">
                     <li><Link to="/">NASLOVNA</Link></li>
                     <li><Link to="/vesti">VESTI</Link></li>
@@ -37,7 +50,8 @@ const Header = () => {
                 </ul>
             </div>
         </header>
-        
-    )
+        )
+    }
 }
 export default Header;
+
