@@ -9,14 +9,13 @@ class Header extends Component {
         super(props);
 
         this.state = {
-            background: true,
         }
     }
     
     render() {
-        console.log(this.props)
+        
         let box = ["header-main"];
-        if(this.state.background) {
+        if(window.location.href == "http://localhost:3000/") {
             box.push("header-bg");
           }
         return (
