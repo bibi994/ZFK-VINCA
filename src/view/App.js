@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <>
       <Header />
+        <main>
             <Switch>
                 <Route path="/kontakt" component={Contact} />
                 <Route path="/galerija" component={Gallery} />
@@ -31,6 +32,7 @@ class App extends Component {
 				<Route path="/o-klubu" component={About} />
 				<Route path="/" component={Home} />
 			</Switch>
+        </main>
       <Footer />
       </>
     )
