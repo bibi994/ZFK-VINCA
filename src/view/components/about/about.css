@@ -1,0 +1,51 @@
+.about h2, h3{
+    padding-left: 30px;
+}
+.about-img{
+    width: 100%;
+}
+.about > .row{
+    margin: 40px 0; 
+}
+.coach-img{
+    align-self: center;
+    width: 100%;
+}
+.signature p:nth-child(1){
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.signature p:nth-child(2){
+    font-weight: bold;
+    float: left;
+    padding-left: 15px;
+}
+.signature img{
+    float: right;
+    padding-right: 15px;
+    width: 50%;
+}
+.about-gray{
+    background-color: #f0f0f0;
+    padding: 15px 50px;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.coach-img{
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-gray{
+        padding: 15px;
+        margin: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-gray{
+        padding: 15px 30px;
+    }
+}
