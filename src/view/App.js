@@ -14,6 +14,7 @@ import News from './components/news/News';
 import Results from './components/results/Results';
 import Gallery from './components/gallery/Gallery';
 import Contact from './components/contact/Contact';
+import SinglePost from './components/singlePost/SinglePost'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
       <Header />
         <main>
             <Switch>
+                <Route path="/post/:postId" component={SinglePost} />
                 <Route path="/kontakt" component={Contact} />
                 <Route path="/galerija" component={Gallery} />
                 <Route path="/rezultati" component={Results} />
