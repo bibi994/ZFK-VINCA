@@ -30,12 +30,12 @@
     font-weight: 700px;
     text-shadow: 1px 1px 1px #000000;
 }
-.home-first-article h3{
+.home-first-article > h3{
     position: absolute;
     top: 80%;
     left: 40px;
     color: white;
-    font-weight: 700px;
+    font-weight: bold;
     text-shadow: 1px 1px 1px #000000;
     text-transform: uppercase;
 }

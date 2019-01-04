@@ -40,16 +40,13 @@ const Footer = () => {
                 <p class="col-4">
                         Copyright © 2018 WFC Vinča. All rights reserved.                       
                 </p>
-                <p class="col-4">
+                <p class="col-4 offset-4">
                         <i class="fas fa-map-marker-alt"></i>
                         <i class="fas fa-phone-square"></i>
                         <i class="fas fa-envelope-square"></i> 
                         <i class="fab fa-google-plus-g"></i>                      
-                </p>
-                <p class="col-4">
-                        Developed by Miloš & Vojkan
-                       
-                </p>
+                </p> 
+                
         </div>
     </footer>
     )

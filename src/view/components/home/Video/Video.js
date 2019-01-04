@@ -7,7 +7,7 @@ const Video = () => {
         <>
             <div className="social">
                 <div className="social-header">
-                    <i class="fas fa-grip-lines"></i>
+                    <i className="fas fa-grip-lines"></i>
                     <p>VIDEO</p>
                 </div>
                 <div className="video">
