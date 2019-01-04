@@ -10,7 +10,6 @@ const Table = () => {
                     <p>Tabela</p>
                     <div className="more-table"><a href="!#">CELA TABELA</a></div>
                 </div>
-
                 <table className="home-table">
                     <tr>
                         <th></th>
