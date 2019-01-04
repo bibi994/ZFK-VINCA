@@ -6,7 +6,7 @@ const Table = () => {
         <>
               <div className="small-table">
                 <div className="small-table-header">
-                    <i class="fas fa-grip-lines"></i>
+                    <i className="fas fa-grip-lines"></i>
                     <p>Tabela</p>
                     <div className="more-table"><a href="!#">CELA TABELA</a></div>
                 </div>

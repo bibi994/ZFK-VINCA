@@ -7,7 +7,7 @@ const Social = () => {
         <>
             <div className="social">
                 <div className="social-header">
-                    <i class="fas fa-grip-lines"></i>
+                    <i className="fas fa-grip-lines"></i>
                     <p>PRATITE ŽFK VINČA</p>
                 </div>
 

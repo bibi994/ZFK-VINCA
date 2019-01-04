@@ -20,29 +20,29 @@ class Header extends Component {
           }
         return (
             <header>
-            <div class="header-top">
+            <div className="header-top">
                 <div className="container">
                     <div className="header-top-news">
-                        <div class="last-news "> VESTI</div>
+                        <div className="last-news "> VESTI</div>
                         <p>Ostvarena je prva pobeda!</p>
                     </div>
 
-                    <div class="social-nav">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube-square"></i></a>
+                    <div className="social-nav">
+                        <a href="#"><i className="fab fa-facebook"></i></a>
+                        <a href="#"><i className="fab fa-instagram"></i></a>
+                        <a href="#"><i className="fab fa-youtube-square"></i></a>
                         
                     </div>
                 </div>
 
             </div>
             <div className={box.join('')}>
-                <ul class="header-nav container">
+                <ul className="header-nav container">
                     <li><Link to="/">NASLOVNA</Link></li>
                     <li><Link to="/vesti">VESTI</Link></li>
                     <li><Link to="/o-klubu">O KLUBU</Link></li>
                     <li><Link to="/strucni-stab">STRUČNI ŠTAB</Link></li>
-                    <li class="header-logo"><Link to="/"><img src={require('../../../shared/logo.png')} alt="logo"/></Link></li>
+                    <li className="header-logo"><Link to="/"><img src={require('../../../shared/logo.png')} alt="logo"/></Link></li>
                     <li><Link to="/tim">TIM</Link></li>
                     <li><Link to="/rezultati">REZULTATI</Link></li>
                     <li><Link to="/galerija">GALERIJA</Link></li>
