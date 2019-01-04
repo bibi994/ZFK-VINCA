@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 
-import Slider from './../slider/Slider';
+// import Slider from './../slider/Slider';
 import First_Article from './First_Article/First_Article';
 import Second_Article from './Second_Article/Second_Article';
 import Social from './Social/Social';
@@ -11,7 +11,7 @@ import Video from './Video/Video';
 const Home = () => {
     return(
         <>
-            <Slider/>
+            {/* <Slider/> */}
             <div className="row container clearFix">
                 <div className="col-8 ">
                    
