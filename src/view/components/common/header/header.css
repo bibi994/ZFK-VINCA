@@ -6,14 +6,20 @@
 }
 .header-bg{
     background-image: url("../../../shared/header-banner.jpg");
-    /* z-index: -1000; */
-    /* margin-bottom: 250px; */
 }
-header{
+.header-position{
     position: relative;
     top: 0;
     width: 100%;
-    /* z-index: 100; */
+    
+}
+header{
+    
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 .container{
     width: 1100px;
@@ -47,7 +53,7 @@ header{
 }
 .header-main{
     height: 145px;
-    background-image: url("../../../shared/header-banner.jpg");
+    /* background-image: url("../../../shared/header-banner.jpg"); */
 }
 .header-nav{
     list-style-type: none;

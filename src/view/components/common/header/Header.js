@@ -14,12 +14,14 @@ class Header extends Component {
     
     render() {
         
-        let box = ["header-main"];
-        if(window.location.href == "http://localhost:3000/") {
-            box.push("header-bg");
+        let boxBg = ["header-main"];
+        let boxPosition = []
+        if(window.location.href !== "http://localhost:3000/") {
+            boxBg.push("header-bg");
+            boxPosition.push("header-position");
           }
         return (
-            <header>
+            <header className={boxPosition.join(' ')}>
             <div className="header-top">
                 <div className="container">
                     <div className="header-top-news">
@@ -36,7 +38,7 @@ class Header extends Component {
                 </div>
 
             </div>
-            <div className={box.join('')}>
+            <div className={boxBg.join(' ')}>
                 <ul className="header-nav container">
                     <li><Link to="/">NASLOVNA</Link></li>
                     <li><Link to="/vesti">VESTI</Link></li>
