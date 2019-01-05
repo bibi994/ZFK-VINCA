@@ -103,3 +103,8 @@
     height: 500px;
     border:none;
 }
+.contact-clearFix::after {
+    display: block;
+    content: "";
+    clear: both;
+}

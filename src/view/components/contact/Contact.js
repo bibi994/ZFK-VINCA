@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
     return(
         <>
-        <div className="contact"> 
+        <div className="contact contact-clearFix"> 
              <h1>Kontakt</h1>
              <main>
                  <h6>Monday to Friday (except bank holidays) 9:30 AM to 5:00 PM.</h6>
@@ -12,11 +12,11 @@ const Contact = () => {
                  <div className="contact-div">
                  <img src="https://splash.scdn4.secure.raxcdn.com/football/wp-content/uploads/sites/2/2016/05/contacts-1-370x150.jpg" alt="slika"/>
                  <h3>HEAD OFFICE</h3>
-                 <div><i class="fas fa-map-marker-alt contact-icons"/><p className="contact-p-icons">USA, California 20, First Avenue, California</p></div>
+                 <div><i class="fas fa-map-marker-alt contact-icons"/><p className="contact-p-icons">USA, California 20, First Avenue</p></div>
                  <div> <i class="fas fa-mobile contact-icons"/><p className="contact-p-icons">+7 998 71 150 30 20</p></div>
                  <div> <i class="fas fa-envelope contact-icons"/><p className="contact-p-icons">info@stylemixthemes.com</p></div></div>
                  <div className="contact-div ml-5"><img src="https://splash.scdn4.secure.raxcdn.com/football/wp-content/uploads/sites/2/2016/05/contacts-2-370x150.jpg" alt="slika"/>
-                 <h3>HEAD OFFICE</h3><div><i class="fas fa-map-marker-alt contact-icons"/><p className="contact-p-icons">USA, California 20, First Avenue, California</p></div>
+                 <h3>HEAD OFFICE</h3><div><i class="fas fa-map-marker-alt contact-icons"/><p className="contact-p-icons">USA, California 20, First Avenue</p></div>
                  <div> <i class="fas fa-mobile contact-icons"/><p className="contact-p-icons">+7 998 71 150 30 20</p></div>
                  <div> <i class="fas fa-envelope contact-icons"/><p className="contact-p-icons">info@stylemixthemes.com</p></div></div>
                  </main>
