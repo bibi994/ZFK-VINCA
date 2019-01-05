@@ -1,0 +1,105 @@
+.contact{
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.contact h1{
+    font-size: 50px;
+    margin-top: 7%;
+}
+.contact main{
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+.contact main h6{
+    margin: 5% 0 3%;
+}
+.contact main p{
+    margin-bottom: 5%;
+}
+
+.contact-div.ml-5 {
+    margin-left: 5%; 
+}
+.contact-div{
+    float: left;
+    width: 45%;
+}
+.contact-div img{
+    width: 100%;
+}
+.contact h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0;
+    margin: 5% 0 2%;
+}
+.contact-icons{
+    color:orange;
+    margin: 3% 5% 0 0;
+}
+.contact-p-icons{
+    display: inline;
+    font-size: 14px;
+}
+
+.contact aside{
+    box-sizing: border-box;
+    float: left;
+    margin-left: 8%;
+    
+}
+.contact aside h2{
+    margin-bottom: 13%;
+}
+.contact aside input{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 2% 3% 2%;
+    margin-bottom: 10%;
+}
+.contact aside input:focus{
+    outline: none;
+}
+.contact aside textarea{
+    width: 100%;
+    border: none;
+    padding: 2% 3% 2%;
+}
+.contact aside textarea:focus{
+    outline: none;
+}
+.contact aside button{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 5%;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    font-weight: 600;
+}
+.contact aside button:hover{
+   transition: all .5s ease;
+   background-color: #06083b;
+}
+.wrapper-iframe{
+    position: relative;
+}
+.contact-iframe-shadow{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    box-shadow: 0 3px 3px rgba(0,0,0,.19);
+    z-index: 99;
+}
+.contact-iframe{
+    width: 100%;
+    height: 500px;
+    border:none;
+}
