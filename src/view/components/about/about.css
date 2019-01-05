@@ -1,15 +1,11 @@
-.about h2, h3{
-    padding-left: 30px;
-}
+
 .about-img{
     width: 100%;
-}
-.about > .row{
-    margin: 40px 0; 
 }
 .coach-img{
     align-self: center;
     width: 100%;
+    margin-bottom: 30px;
 }
 .signature p:nth-child(1){
     padding-left: 15px;
